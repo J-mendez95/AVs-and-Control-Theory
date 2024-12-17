@@ -35,14 +35,14 @@ This repository contains MATLAB scripts and live scripts (MLX files) for simulat
 5. **Vehicle_Tracking_w_SMC.m**
    - **Purpose**: Simulates vehicle path tracking using Sliding Mode Control (SMC).
    - **Key Features**:
-     - Tracks a sinusoidal reference path defined as \( y = A \cdot \sin(k \cdot x) + \cos(x) \).
+     - Tracks a sinusoidal reference path defined as $ y = A \cdot \sin(k \cdot x) + \cos(x) $.
      - Implements SMC control to minimize lateral error and stabilize vehicle trajectory.
      - Visualizes vehicle trajectory compared to the reference path.
    - **Parameters**:
-     - Vehicle speed: \( v = 5 \) m/s.
-     - SMC gain: \( K = 10 \), smoothing parameter: \( \theta = 0.1 \).
-     - Sliding surface parameter: \( \lambda = 2 \).
-     - Sinusoidal reference path: \( A = 2.5 \), \( k = 0.1 \).
+     - Vehicle speed: $ v = 5 $ m/s.
+     - SMC gain: $ K = 10 $, smoothing parameter: $ \theta = 0.1 $.
+     - Sliding surface parameter: $ \lambda = 2 $.
+     - Sinusoidal reference path: $ A = 2.5 $, $ k = 0.1 $.
    - **Applications**: Robust control design and advanced vehicle path tracking.
 
 ## **Requirements**
